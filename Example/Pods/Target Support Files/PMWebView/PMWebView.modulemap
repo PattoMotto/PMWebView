@@ -1,0 +1,6 @@
+framework module PMWebView {
+  umbrella header "PMWebView-umbrella.h"
+
+  export *
+  module * { export * }
+}
