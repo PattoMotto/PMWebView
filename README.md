@@ -1,6 +1,6 @@
 # PMWebView
 
-[![CI Status](https://img.shields.io/travis/pattomotto/PMWebView.svg?style=flat)](https://travis-ci.org/pattomotto/PMWebView)
+[![CI Status](https://img.shields.io/travis/PattoMotto/PMWebView.svg?style=flat)](https://travis-ci.org/PattoMotto/PMWebView)
 [![Version](https://img.shields.io/cocoapods/v/PMWebView.svg?style=flat)](https://cocoapods.org/pods/PMWebView)
 [![License](https://img.shields.io/cocoapods/l/PMWebView.svg?style=flat)](https://cocoapods.org/pods/PMWebView)
 [![Platform](https://img.shields.io/cocoapods/p/PMWebView.svg?style=flat)](https://cocoapods.org/pods/PMWebView)
@@ -22,7 +22,7 @@ pod 'PMWebView'
 
 ## Author
 
-pattomotto, 1745000+pattomotto@users.noreply.github.com
+PattoMotto
 
 ## License
 

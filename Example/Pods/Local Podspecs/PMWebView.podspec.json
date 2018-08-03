@@ -1,22 +1,22 @@
 {
   "name": "PMWebView",
   "version": "0.1.0",
-  "summary": "A short description of PMWebView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/pattomotto/PMWebView",
+  "summary": "Full screen web view with touch through",
+  "description": "Full screen web view that popup only when DOM generated, does not block user due to while loading if user touch or got http error or timeout this web view will disappear",
+  "homepage": "https://github.com/PattoMotto/PMWebView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
-  "authors": {
-    "pattomotto": "1745000+pattomotto@users.noreply.github.com"
-  },
+  "authors": "PattoMotto",
   "source": {
-    "git": "https://github.com/pattomotto/PMWebView.git",
+    "git": "https://github.com/PattoMotto/PMWebView.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/PattoMotto",
   "platforms": {
     "ios": "9.0"
   },
+  "swift_version": "4.0",
   "source_files": "PMWebView/Classes/**/*"
 }
