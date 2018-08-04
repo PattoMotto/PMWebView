@@ -5,7 +5,45 @@
 [![License](https://img.shields.io/cocoapods/l/PMWebView.svg?style=flat)](https://cocoapods.org/pods/PMWebView)
 [![Platform](https://img.shields.io/cocoapods/p/PMWebView.svg?style=flat)](https://cocoapods.org/pods/PMWebView)
 
+## Preview
+![pmwebview-1](https://user-images.githubusercontent.com/1745000/43672817-0c0cd820-97e0-11e8-9f8f-c44533ad5283.gif)
+
 ## Example
+
+```swift
+extension ViewController {
+    private func presentPMWevViewAsChild() {
+        let vc = PMWebViewBuilder.build(
+            url: url,
+            output: self
+        )
+        pmWebViewInput = vc
+        addChildViewController(vc)
+        vc.didMove(toParentViewController: self)
+    }
+
+    private func presentPMWevViewAsModal() {
+        let vc = PMWebViewBuilder.build(
+            url: url,
+            output: self
+        )
+        pmWebViewInput = vc
+        present(vc, animated: true)
+    }
+}
+
+extension ViewController: PMWebViewOutput {
+    func webViewWillAppear() {
+        print("webViewWillAppear")
+    }
+
+    func webViewWillDisappear() {
+        print("webViewWillDisappear")
+    }
+}
+
+```
+More details in `Example project`
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
